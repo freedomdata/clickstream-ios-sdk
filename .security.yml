@@ -1,0 +1,21 @@
+version: 1
+
+tier: 1
+env: prod
+exposure: internal
+data: [pii, auth]
+service: swiftsdk
+description: "iOS SDK for collecting and sending ClickStream analytics events from mobile applications"
+
+contacts:
+  owner: BFT
+  incidents: oxana.peregud@fbroker.kz
+  vulnerabilities: oxana.peregud@fbroker.kz
+  deploy: rodion.sharamanov@fbroker.kz
+
+criticality: high
+impact: [reputational, regulatory, operational]
+
+controls:
+  sso: false
+  mfa: false
